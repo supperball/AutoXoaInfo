@@ -1,0 +1,54 @@
+03/03/2020 16:15:06 : 
+
+03/03/2020 16:15:06 : file chạy : XoaInfo
+
+03/03/2020 16:15:06 : Bat dau tu dau
+
+03/03/2020 16:15:06 : Bat Dau Stop File Lua
+
+03/03/2020 16:15:06 : Stop File Xong
+
+03/03/2020 16:15:13 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:15 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:17 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:19 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:21 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:24 : Process XoaInfo. Response: 13404
+
+03/03/2020 16:15:26 : Process XoaInfo. Response: 0
+
+03/03/2020 16:15:46 : 
+
+03/03/2020 16:15:47 : Set TS Lua path TS-autoLeadCheckFake.lua
+
+03/03/2020 16:15:47 : Run TS Lua TS-autoLeadCheckFake.lua
+
+03/03/2020 16:15:49 : LoadOff Error : Thread was being aborted.
+
+03/03/2020 16:16:53 : 
+
+03/03/2020 16:16:53 : file chạy : XoaInfo
+
+03/03/2020 16:16:53 : Bat dau tu dau
+
+03/03/2020 16:16:53 : Bat Dau Stop File Lua
+
+03/03/2020 16:16:53 : Stop File Xong
+
+03/03/2020 16:17:01 : Process XoaInfo. Response: 13538
+
+03/03/2020 16:17:03 : Process XoaInfo. Response: 13538
+
+03/03/2020 16:17:05 : Process XoaInfo. Response: 13538
+
+03/03/2020 16:17:08 : Process XoaInfo. Response: 13538
+
+03/03/2020 16:17:10 : Process XoaInfo. Response: 13538
+
+03/03/2020 16:17:12 : Wipe Data Error : Thread was being aborted.
+

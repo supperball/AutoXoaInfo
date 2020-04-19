@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Bitvise SSH Client: Installed resources</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			font-family: "Trebuchet MS", Arial, sans-serif;
+			font-size: 10pt;
+			color: #333;
+		}
+
+		#language {
+			text-align: right;
+		}
+
+		#title h1 {
+			margin-top: 36pt;
+			margin-bottom: 36pt;
+			font-size: 24pt;
+			text-align: center;
+			color: #666;
+		}
+
+		#content h1 {
+			padding-left: 6pt;
+            margin-top: 20pt;
+			font-size: 14pt;
+			color: #369;
+		}
+
+			#content h1.chapter {
+				padding-left: 0pt;
+				margin-top: 36pt;
+				margin-bottom: 6pt;
+				font-size: 18pt;
+				color: #666;
+			}
+
+		#content p {
+			padding-left: 6pt;
+		}
+
+
+		#footer {
+			padding-top: 36pt;
+			font-style: italic;
+			font-size: 9pt;
+			text-align: center;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+
+    <div id="title">
+        <h1>Bitvise SSH Client: Installed resources</h1>
+    </div>
+
+    <div id="content">
+        <h1 class='chapter'>Components that can be used directly</h1>
+
+        <h1>BvSsh.exe</h1>
+        <p>Our general-purpose, graphical SSH client. Supports terminal shell, graphical SFTP file transfers, single-click Remote Desktop tunneling, bridging of FTP clients to SFTP, port forwarding with static rules and via integrated proxy, and remote administration of Bitvise SSH Server.</p>
+
+        <h1>BvSshCtrl.exe, BvSshCtrl.cpp</h1>
+        <p>Bitvise SSH Client Control utility - run <i>BvSshCtrl</i> without parameters for help. C++ source code is provided.</p>
+
+        <h1>sftpc.exe</h1>
+        <p>Command-line SFTP client with built-in scripting support. Run it with <i>sftpc -h</i> for help.</p>
+
+        <h1>stermc.exe</h1>
+        <p>Command-line terminal client. Run it with <i>stermc -h</i> for help.</p>
+
+        <h1>sexec.exe</h1>
+        <p>Command-line scriptable remote execution client. Run it with <i>sexec -h</i> for help.</p>
+
+        <h1>stnlc.exe</h1>
+        <p>Command-line scriptable port forwarding and FTP-to-SFTP bridge client. Run it with <i>stnlc -h</i> for help.</p>
+
+        <h1>spksc.exe</h1>
+        <p>Command-line scriptable SSH Public Key Subsystem client. Run it with <i>spksc -h</i> for help.</p>
+
+        <h1>log.exe</h1>
+        <p>Command-line utility to redirect a program's output into a uniquely named log file. Suitable for use with <i>sftpc</i> as well as any other command-line program. Run it without parameters for help.</p>
+
+        <h1>retry.exe</h1>
+        <p>Command-line utility that repeatedly executes the provided command until it succeeds, or a maximum number of attempts have been made. Suitable for use with <i>sftpc</i> as well as any other command-line program. Run it without parameters for help.</p>
+
+        <h1>uninst.exe</h1>
+        <p>Bitvise SSH Client uninstaller. It is not usually run directly. Instead, use <b>Add or remove programs</b> in Windows.</p>
+        <p>To uninstall Bitvise SSH Client in an unattended manner:</p>
+        <ol>
+            <li><p>Copy <i>uninst.exe</i> from the Bitvise SSH Client installation directory to another temporary location.</p></li>
+            <li><p>Run it in the temporary folder as follows:</p>
+                <p>uninst "BvSshClient" -unat</p></li>
+        </ol>
+        <p>It is possible to run <i>uninst</i> directly from the SSH Client installation directory. However if you do that, <i>uninst</i> will first copy itself to a temporary location, then run itself and exit. The original instance of <i>uninst</i> will exit before the uninstallation completes. This may cause problems if your script performs other tasks which should wait for the uninstallation.</p>
+
+
+        <h1 class='chapter'>Components for use by developers</h1>
+
+        <h1>FlowSshNetSamples: FlowSshNet_Exec.ps1, FlowSshNet_Sftp.ps1</h1>
+        <p>PowerShell scripts demonstrating use of the FlowSsh library for .NET included with the SSH Client. The Exec script shows how to execute a remote command. The Sftp script shows how to transfer files.</p>
+        <p>The functionality available via PowerShell + FlowSshNet is similar to that available via <i>sexec</i> and <i>sftpc</i> command line clients. FlowSshNet provides a greater degree of control to advanced users.</p>
+
+        <h1>FlowSshC32/64.dll, FlowSshNet32/64.dll, FlowSshNet32/64.msi</h1>
+        <p>Native DLL, .NET assemblies, and installers that comprise the FlowSshC and FlowSshNet libraries.</p>
+        <p>FlowSshNet can be used under the Bitvise SSH Client license on computers where the SSH Client is installed. A separate FlowSsh license is required for use without Bitvise SSH Client.</p>
+
+        <h1>install.log</h1>
+        <p>An installation log file that may be present and contain information if FlowSshNet installation did not complete correctly.</p>
+
+
+        <h1 class='chapter'>Components that should NOT be executed directly</h1>
+
+        <h1>bvtermc.exe, totermc.exe, totermw.exe</h1>
+        <p>The SSH Client's terminal subsystem modules. Used only from within the the SSH Client.</p>
+
+        <h1>WRC-5.xx, WRC-6.xx, WRC-7.xx</h1>
+        <p>Bitvise SSH Server Remote Control packages. Can be used from the graphical SSH Client for remote administration of Bitvise SSH Server or WinSSHD 5.xx, 6.xx, and 7.xx.</p>
+
+        <h1>MstscTitle32/64.dll/exe</h1>
+        <p>Fixes Remote Desktop window titles when using single-click Remote Desktop forwarding.</p>
+
+        <h1>BscActCode.exe</h1>
+        <p>Bitvise SSH Client's activation code manager. Used to apply an activation code so that it's effective machine-wide, instead of only for the current user.</p>
+
+        <h1>BvDump32.exe, BvDump64.exe</h1>
+        <p>In the event that an SSH Client process encounters a critical error, this executable is run to create a memory dump of the process that encountered the error. Any memory dumps are stored on the local computer under the current user's %LOCALAPPDATA% directory, under Bitvise\BvDump. If you ever see an error of this type, please contact Bitvise.</p>
+
+        <h1>CiCpFips32.dll, CiCpFips64.dll, CryptoPP530Fips32.dll, CryptoPP530Fips64.dll</h1>
+        <p>The SSH Client's older cryptographic provider as used in 6.xx versions. CiCpFips32/64.dll serve as an interface to CryptoPP530Fips32/64.dll, a version of Crypto++ that originally received FIPS 140-2 validation under certificate 819.</p>
+        <p>This provider should only be used where needed. It contains known issues with timing side channels, which can permit remote private key compromise. Our software implements mitigations, but it is better to use the new provider, CiWinCng.</p>
+        <p>By default, this cryptographic provider is used on Windows XP and Windows Server 2003, where Windows CNG cryptography is not available. On later Windows versions, this provider can be selected by creating a registry value named "CryptoProvider", with string value "CiCpFips", under the registry key HKLM\Software\Wow6432Node\Bitvise on 64-bit systems, or HKLM\Software\Bitvise on 32-bit systems. This registry value will have machine-wide effect on Bitvise SSH Server, SSH Client, and FlowSsh versions 7.xx and higher.</p>
+
+        <h1>CiWinCng32.dll, CiWinCng64.dll</h1>
+        <p>The SSH Client's default cryptographic provider used on all recent versions of Windows, starting from Windows Vista and Windows Server 2008.</p>
+        <p>This provider uses <b>Windows CNG cryptography</b> for algorithms supported by Windows. It is augmented with <b>OpenSSL</b> and Crypto++ to support algorithms not supported by Windows.</p>
+        <p>If FIPS mode is enabled in Windows security policy, this provider uses <b>only</b> Windows CNG cryptography. In FIPS mode, only algorithms supported by Windows are available.</p>
+        <p>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (<a href='http://www.openssl.org/'>http://www.openssl.org/</a>)</p>
+        <p>This product includes cryptographic software written by Eric Young (eay@cryptsoft.com).</p>
+        <p><a id="oslToggle" href="#oslToggle">[+] View OpenSSL Toolkit license</a></p>
+        <div style="display: none" id="oslText">
+            <textarea readonly rows="30" cols="90">
+
+  OpenSSL License
+  ---------------
+
+/* ====================================================================
+ * Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * 3. All advertising materials mentioning features or use of this
+ *    software must display the following acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ *
+ * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+ *    endorse or promote products derived from this software without
+ *    prior written permission. For written permission, please contact
+ *    openssl-core@openssl.org.
+ *
+ * 5. Products derived from this software may not be called "OpenSSL"
+ *    nor may "OpenSSL" appear in their names without prior written
+ *    permission of the OpenSSL Project.
+ *
+ * 6. Redistributions of any form whatsoever must retain the following
+ *    acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ====================================================================
+ *
+ * This product includes cryptographic software written by Eric Young
+ * (eay@cryptsoft.com).  This product includes software written by Tim
+ * Hudson (tjh@cryptsoft.com).
+ *
+ */
+
+ Original SSLeay License
+ -----------------------
+
+/* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+ * All rights reserved.
+ *
+ * This package is an SSL implementation written
+ * by Eric Young (eay@cryptsoft.com).
+ * The implementation was written so as to conform with Netscapes SSL.
+ *
+ * This library is free for commercial and non-commercial use as long as
+ * the following conditions are aheared to.  The following conditions
+ * apply to all code found in this distribution, be it the RC4, RSA,
+ * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+ * included with this distribution is covered by the same copyright terms
+ * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+ *
+ * Copyright remains Eric Young's, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *    "This product includes cryptographic software written by
+ *     Eric Young (eay@cryptsoft.com)"
+ *    The word 'cryptographic' can be left out if the rouines from the library
+ *    being used are not cryptographic related :-).
+ * 4. If you include any Windows specific code (or a derivative thereof) from
+ *    the apps directory (application code) you must include an acknowledgement:
+ *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * The licence and distribution terms for any publically available version or
+ * derivative of this code cannot be changed.  i.e. this code cannot simply be
+ * copied and put under another distribution licence
+ * [including the GNU Public Licence.]
+ */
+
+</textarea>
+        </div>
+        <script>
+            const oslToggle = document.getElementById('oslToggle');
+            const oslText = document.getElementById('oslText');
+            const oslShowText = oslToggle.innerHTML;
+            let oslShow = false;
+            oslToggle.onclick = function() {
+                oslShow = !oslShow;
+                if (oslShow) {
+                    oslToggle.innerHTML = "[&ndash;] Collapse OpenSSL Toolkit license";
+                    oslText.style.display = "block";
+                } else {
+                    oslToggle.innerHTML = oslShowText;
+                    oslText.style.display = "none";
+                }
+            }
+        </script>
+    </div>
+
+    <br />
+    <br />
+    <div id="footer">
+        This content is Copyright &#169; 2001-2019 by Bitvise Limited. All rights reserved.<br>Unauthorized copying or distribution of any part or whole is prohibited.
+    </div>
+</body>
+</html>

@@ -1,0 +1,279 @@
+03/03/2020 16:15:06 : command=PCAutoD -uiopen touchsprite:// {"status":true}
+
+
+03/03/2020 16:15:06 :  []
+
+
+03/03/2020 16:15:06 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:15:06 :  fail
+
+
+03/03/2020 16:15:06 : command=PCAutoD -command find /private/var/root/Library/XoaInfo/ -empty -type d -delete {"status":true}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -command find /private/var/mobile/Media/XoaInfo/ -empty -type d -delete {"status":true}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchDone {"status":false}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchDontLead {"status":false}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchError {"status":false}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchOpenApp {"status":false}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeSaiTT {"status":false}
+
+
+03/03/2020 16:15:06 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeQuaStore {"status":false}
+
+
+03/03/2020 16:15:07 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadNotYet {"status":false}
+
+
+03/03/2020 16:15:07 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadDone {"status":false}
+
+
+03/03/2020 16:15:07 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloading {"status":false}
+
+
+03/03/2020 16:15:07 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadNOFree {"status":false}
+
+
+03/03/2020 16:15:08 :  
+
+
+03/03/2020 16:15:08 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:08 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:08 : command=PCAutoD -k XoaInfo {"status":true}
+
+
+03/03/2020 16:15:10 : command=PCAutoD -uiopen XoaInfo:// {"status":true}
+
+
+03/03/2020 16:15:12 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:12 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:13 : command=PCAutoD -uiopen XoaInfo://Reset {"status":true}
+
+
+03/03/2020 16:15:13 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:14 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:14 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:16 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:16 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:18 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:18 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:20 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:20 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:22 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:23 : command=PCAutoD -c XoaInfo {"status":13404}
+
+
+03/03/2020 16:15:25 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:25 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:15:46 :  []
+
+
+03/03/2020 16:15:46 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:15:46 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:46 : command=PCAutoD -writememcode affmedia.io-haotest-1-checkliverandom {"status":true}
+
+
+03/03/2020 16:15:46 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:46 : command=PCAutoD -k Check Fake {"status":true}
+
+
+03/03/2020 16:15:46 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:46 : command=PCAutoD -k MobileSafari {"status":true}
+
+
+03/03/2020 16:15:46 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:47 : command=PCAutoD -k AppStore {"status":true}
+
+
+03/03/2020 16:15:47 : {"path":"var/mobile/Media/TouchSprite/lua/TS-autoLeadCheckFake.lua"} ok
+
+
+03/03/2020 16:15:47 :  ok
+
+
+03/03/2020 16:15:47 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:47 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:47 : command=PCAutoD -ef /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeSaiTT {"status":false}
+
+
+03/03/2020 16:15:48 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:48 : command=PCAutoD -ef /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeQuaStore {"status":false}
+
+
+03/03/2020 16:15:48 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:15:48 : command=PCAutoD -ef /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeSaiTT {"status":false}
+
+
+03/03/2020 16:16:53 : command=PCAutoD -uiopen touchsprite:// {"status":true}
+
+
+03/03/2020 16:16:53 :  []
+
+
+03/03/2020 16:16:53 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:16:53 :  fail
+
+
+03/03/2020 16:16:54 : command=PCAutoD -command find /private/var/root/Library/XoaInfo/ -empty -type d -delete {"status":true}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -command find /private/var/mobile/Media/XoaInfo/ -empty -type d -delete {"status":true}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -c XoaInfo {"status":0}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchDone {"status":false}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchDontLead {"status":false}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchError {"status":false}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoTouchOpenApp {"status":false}
+
+
+03/03/2020 16:16:54 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeSaiTT {"status":false}
+
+
+03/03/2020 16:16:55 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/CheckFakeQuaStore {"status":false}
+
+
+03/03/2020 16:16:55 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadNotYet {"status":false}
+
+
+03/03/2020 16:16:55 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadDone {"status":false}
+
+
+03/03/2020 16:16:55 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloading {"status":false}
+
+
+03/03/2020 16:16:55 : command=PCAutoD -rm /private/var/mobile/Media/1ferver/lua/scripts/AutoDownloadNOFree {"status":false}
+
+
+03/03/2020 16:16:56 :  
+
+
+03/03/2020 16:16:56 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:16:56 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:16:56 : command=PCAutoD -k XoaInfo {"status":true}
+
+
+03/03/2020 16:16:58 : command=PCAutoD -uiopen XoaInfo:// {"status":true}
+
+
+03/03/2020 16:17:00 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:00 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
+03/03/2020 16:17:01 : command=PCAutoD -uiopen XoaInfo://Reset {"status":true}
+
+
+03/03/2020 16:17:01 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:02 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:02 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
+03/03/2020 16:17:04 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:04 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
+03/03/2020 16:17:07 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:07 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
+03/03/2020 16:17:09 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:09 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
+03/03/2020 16:17:11 :  1b294cda1bf3f0a7803db419183264c8
+
+
+03/03/2020 16:17:11 : command=PCAutoD -c XoaInfo {"status":13538}
+
+
